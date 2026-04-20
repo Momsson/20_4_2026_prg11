@@ -1,7 +1,7 @@
 import random
 import matplotlib.pyplot as plt
 
-def random_numbers(count, low=1, high=1):
+def random_numbers(count, low=0, high=100):
     return [random.randint(low, high) for _ in range(count)]
 
 #selection short
