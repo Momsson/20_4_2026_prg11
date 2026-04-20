@@ -1,4 +1,4 @@
-📁 __sorting.py__
+<h1>📁 __sorting.py__</h1>
 Obsahuje funkce pro práci se seznamy (není to třída)
 Funkce:
   __random_numbers__ → generuje náhodná čísla
