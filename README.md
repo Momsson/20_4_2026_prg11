@@ -1,7 +1,7 @@
 📁 sorting.py
 Obsahuje funkce pro práci se seznamy (není to třída)
 Funkce:
-  random_numbers → generuje náhodná čísla \n 
+  random_numbers → generuje náhodná čísla {\n} 
   selection_sort → řadí seznam pomocí Selection Sort
   bubble_sort → řadí seznam pomocí Bubble Sort
 
