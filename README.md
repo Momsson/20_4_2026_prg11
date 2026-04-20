@@ -1,4 +1,4 @@
-<h1>📁 __sorting.py__</h1>
+<h1>📁 sorting.py</h1>
 Obsahuje funkce pro práci se seznamy (není to třída)
 Funkce:
   __random_numbers__ → generuje náhodná čísla
@@ -6,8 +6,7 @@ Funkce:
   __bubble_sort__ → řadí seznam pomocí Bubble Sort
 
 
-
-📁 __student_grades.py__
+<h1>📁 student_grades.py</h1>
 Obsahuje třídu:
   Třída:
     __StudentsGrades__
