@@ -12,15 +12,26 @@ def selection_sort(cislo):
             if cislo[j] < cislo[min_idx]:
                 min_idx = j
         cislo[i], cislo[min_idx] = cislo[min_idx], cislo[i]
-
     return cislo
+
+def bubble_sort(cislo):
+    sort = cislo.copy()
+    n = len(sort)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if sort[j] > sort[j + 1]:
+                sort[j], sort[j + 1] = sort[j + 1], sort[j]
+
+    return sort
 
 if __name__ == "__main__":
 #kratky seznam
         test_list = [5, 1, 4, 2, 8]
         print("Puvodní seznam:", test_list)
-        print("Serazený seznam:", selection_sort(test_list))
+        print("Serazený seznam SS:", selection_sort(test_list))
+        print("Serazený seznam BS:", bubble_sort(test_list))
 # 20 cisiel
         random_list = random_numbers(20)
         print("Náhodný seznam:", random_list)
-        print("Serazený náhodný seznam:", selection_sort(random_list))
+        print("Serazený náhodný seznam SS:", selection_sort(random_list))
+        print("Serazený seznam BS:", bubble_sort(random_list))
