@@ -11,10 +11,9 @@ def selection_sort(cislo):
         for j in range(i + 1, n):
             if cislo[j] < cislo[min_idx]:
                 min_idx = j
-                cislo[i], cislo[min_idx] = cislo[min_idx], cislo[i]
+        cislo[i], cislo[min_idx] = cislo[min_idx], cislo[i]
 
-        return cislo
-
+    return cislo
 
 if __name__ == "__main__":
 #kratky seznam
