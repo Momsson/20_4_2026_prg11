@@ -37,7 +37,6 @@ class StudentsGrades:
     def get_sorted(self):
         scores = self.scores.copy()
         n = len(scores)
-
         for i in range(n):
             for j in range(0, n - i - 1):
                 if scores[j] > scores[j + 1]:
@@ -82,7 +81,8 @@ def main():
 
     # hledání
     print("Indexy studentů se 100 body:", results.find(100))
-
+    print("Indexy studentů se 50 body:", results.find(50))
+    print("Indexy studentů se 77 body:", results.find(77))
     # seřazený seznam
     print("Seřazené výsledky:", results.get_sorted())
     print("Původní seznam:", results.scores)
