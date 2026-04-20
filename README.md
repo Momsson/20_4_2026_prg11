@@ -7,7 +7,7 @@ Funkce:
 
 
 
-📁 student_grades.py (nebo „main.py“, ale správněji student_grades)
+📁 student_grades.py
 Obsahuje třídu:
   Třída:
     StudentsGrades
